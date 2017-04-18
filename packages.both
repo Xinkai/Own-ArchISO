@@ -67,3 +67,7 @@ zd1211-firmware
 
 archlinuxcn-mirrorlist-git
 archlinuxcn-keyring
+
+linux-headers
+spl-dkms
+spl-utils
