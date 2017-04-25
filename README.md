@@ -7,11 +7,16 @@ Own ArchIso
 Changes
 -------
 
-   1. enable `archlinuxcn` repo in the airootfs;
+   1. zfs ready. If needed, run `modprobe zfs`;
    2. make use of `neovim` instead of `vim`;
-   3. zfs module enabled;
+   3. copy the following settings from the host to airootfs:
+     - /etc/localtime
+     - /etc/pacman.conf
+     - /etc/pacman.d/*mirrorlist
+     - /etc/locale.gen
 
-Requirements
-------------
 
-   On your base system, enable `archlinuxcn` repo, and install `archlinuxcn-mirrorlist-git`.
+TODO
+----
+
+   1. export lists of installed packages for each repository, and AUR;
